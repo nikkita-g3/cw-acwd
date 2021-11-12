@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+
+    </head>
+
+   
+
+    <body>
+
+
+        <header>
+
+            <div class="BGimg">
+                <img src="bg2.jpg" class="backgroundImg">
+            </div>
+
+                <div class="content">
+                    <img src="IMG_6728.JPG"  class="avatar_img">
+                    <h2>Nikkita Romain Frudentia Gomez</h2>
+                    <p> After they see your images, The natural step for clients, readers, and fans is to ask: 
+                        <br>Who’s the person behind the work?</p>
+                    
+                    <div class="nav-bar">
+                        <ul class="nav" style="text-align:center">
+                            <li class="item"><u><a href="http://www.coding-kids.net/"><i class="fa fa-home"></i> Blog</a></u></li>
+                            <li class="item"><u><a href="http://www.coding-kids.net/"><i class="fa fa-home"></i> Gallery</a></u></li>
+                            <li class="item"><u><a href="http://www.coding-kids.net/"><i class="fa fa-home"></i> Get to know us</a></u></li>
+                            <li class="item"><u><a href="http://ask.coding-kids.net/"><i class="fa fa-question-circle"></i>Contact</a></u></li>
+                        </ul>
+                        
+                    </div>
+                    <div>
+                        
+                        <button id="myBtn">Subscribe</button>
+
+                        <!-- <div id="myModal" class="modal">
+
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <p> Subscribe to our Monthly News Letter</p>
+                                <form>
+                                    <input type="email" placeholder="Enter your email address here."><br>
+                                    <input type="submit" id=myBtn value="Subscribe">
+                                </form>
+                            </div>
+
+                        </div> -->
+
+                        <div id="myModal" class="modal">
+
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <img src="edit.png"  class="edit">
+                                <p > Update Profile Info</p>
+                                <form>
+                                    <label for="First Name">First Name</label><br>
+                                    <input type="email" placeholder="First Name:"><br>
+                                    <label for="First Name">Last Name:</label><br>
+                                    <input type="email" placeholder="Last Name"><br>
+                                    <label for="First Name">Email Address:</label><br>
+                                    <input type="email" placeholder="Email Address"><br>
+                                    <label for="First Name">Contact No:</label><br>
+                                    <input type="email" placeholder="Contact no"><br>
+
+                                    <input type="submit" id=myBtn value="Subscribe">
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>   
+
+                    
+                </div>     
+                
+
+        </header>
+
+
+
+        <script>
+            var modal = document.getElementById("myModal");
+            var btn = document.getElementById("myBtn");
+            var span = document.getElementsByClassName("close")[0];
+
+            btn.onclick = function() {
+            modal.style.display = "block";
+            }
+
+            span.onclick = function() {
+            modal.style.display = "none";
+            }
+
+            window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+            }
+            </script>
+
+    </body>
+
+
+    <footer>
+        <!-- <p> This is the Footer </p> -->
+    </footer>
+</html>
