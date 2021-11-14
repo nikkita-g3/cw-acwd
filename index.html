@@ -4,6 +4,7 @@
         <title>My Portfolio</title>
         <link rel="stylesheet" href="stylesheet.css">
         <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <link type="text/css" rel="stylesheet" href="path-to-fontawesome/font-awesome.css">
 
 
     </head>
@@ -16,11 +17,11 @@
         <header>
 
             <div class="BGimg">
-                <img src="bg2.jpg" class="backgroundImg">
+                <img src="images/bg2.jpg" class="backgroundImg">
             </div>
 
                 <div class="content">
-                    <img src="IMG_6728.JPG"  class="avatar_img">
+                    <img src="images/IMG_6728.JPG"  class="avatar_img">
                     <h2>Nikkita Romain Frudentia Gomez</h2>
                     <p> After they see your images, The natural step for clients, readers, and fans is to ask: 
                         <br>Who’s the person behind the work?</p>
@@ -38,7 +39,7 @@
                         
                         <button id="myBtn">Subscribe</button>
 
-                        <!-- <div id="myModal" class="modal">
+                        <div id="myModal" class="modal">
 
                             <div class="modal-content">
                                 <span class="close">&times;</span>
@@ -48,41 +49,83 @@
                                     <input type="submit" id=myBtn value="Subscribe">
                                 </form>
                             </div>
+                        </div>
+                    </div>  
+                    
+                    <div class="socialIcons">
+                        <a href=""><img src="Icons/facebook-xxl.png" alt="facebook" class="icons"></a><br>
+                        <a href=""><img src="Icons/linkedin-6-xxl.png" alt="facebook" class="icons"></a><br>
+                        <a href=""><img src="Icons/github-11-xxl.png" alt="facebook" class="icons"></a><br>
+                        <a href=""><img src="Icons/instagram-xxl.png" alt="facebook" class="icons"></a><br>
+                        <a href=""><img src="Icons/pinterest-xxl.png" alt="facebook"class="icons"></a><br>
+                        <a href=""><img src="Icons/twitter-xxl.png" alt="facebook" class="icons"></a><br>
 
-                        </div> -->
-
-                        <div id="myModal" class="modal">
-
-                            <div class="modal-content">
-                                <span class="close">&times;</span>
-                                <img src="edit.png"  class="edit">
-                                <p > Update Profile Info</p>
-                                <form>
-                                    <label for="First Name">First Name</label><br>
-                                    <input type="email" placeholder="First Name:"><br>
-                                    <label for="First Name">Last Name:</label><br>
-                                    <input type="email" placeholder="Last Name"><br>
-                                    <label for="First Name">Email Address:</label><br>
-                                    <input type="email" placeholder="Email Address"><br>
-                                    <label for="First Name">Contact No:</label><br>
-                                    <input type="email" placeholder="Contact no"><br>
-
-                                    <input type="submit" id=myBtn value="Subscribe">
-                                </form>
-                            </div>
 
                         </div>
-                    </div>   
-
-                    
                 </div>     
                 
 
         </header>
 
+        <div class="sections">
+            <h4 style="text-align: center;"> Nikkita Gomez</h4>
+            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+        </div>
+
+        <div class="sections">
+            <a href="#">            
+                <div class="column"  style="background-color: #65827E">
+                <p class="left" style="color: thistle;"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                    </p>
+            </div>
+            <div class="column">
+                <img class="myImg" src="images/bg2.jpg">
+            </div>
+        </a>
+
+        </div>
+
+
+
+        <div class="sections">
+            <a href="#">
+            <div class="column" >
+                <img class="myImg" src="images/bg2.jpg">
+                
+            </div>
+            <div class="column" style="background-color: #2B4651; ">
+                <p class="right" style="color: thistle;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                    </p>
+            </div>
+        </a>
+        </div>
+        
+
+
+       
+
+
+        <div class="container">
+            
+            <img src="images/pexels-ken-tomita-389819.jpg" class="gallery_img" style="width: 100%; height: 60%; filter: blur(2px);">
+            <div class="centered_text">
+                <h4> <a href="">Gallery</a></h4>
+            </div>
+           
+        </div>
+       
+        
+
 
 
         <script>
+            //Model for subscribe form//
             var modal = document.getElementById("myModal");
             var btn = document.getElementById("myBtn");
             var span = document.getElementsByClassName("close")[0];
@@ -101,6 +144,8 @@
             }
             }
             </script>
+
+
 
     </body>
 
